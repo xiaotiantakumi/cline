@@ -4,7 +4,7 @@ import { ApiHandler } from "../"
 import { ApiHandlerOptions, ModelInfo, openAiModelInfoSaneDefaults } from "../../shared/api"
 import { convertToOpenAiMessages } from "../transform/openai-format"
 import { ApiStream } from "../transform/stream"
-その
+import https from "https"
 
 export class OllamaHandler implements ApiHandler {
 	private options: ApiHandlerOptions
